@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "commonjs",
-    "outDir": "dist",
-    "rootDir": ".",
-    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "strict": false,
+
+    "outDir": "dist",
+    "rootDir": "src",
+
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
-  "include": ["*.ts"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
