@@ -1,12 +1,13 @@
 {
-  "name": "atlas-backend",
+  "name": "lumo-backend",
   "version": "1.0.0",
-  "description": "Backend server for Atlas AI chatbot using Gemini 2.0 Flash",
+  "description": "Backend server for LUMO AI chatbot using Gemini 2.0 Flash",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "echo 'no build needed'"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
