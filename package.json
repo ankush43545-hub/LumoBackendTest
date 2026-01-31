@@ -1,20 +1,16 @@
 {
   "name": "lumo-backend",
   "version": "1.0.0",
-  "description": "Backend server for LUMO AI chatbot using Gemini 2.0 Flash",
+  "description": "Simple chatbot backend for Lumo AI",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "echo 'no build needed'"
+    "start": "node server.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "express": "^4.19.2"
   }
 }
